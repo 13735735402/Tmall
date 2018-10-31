@@ -1,0 +1,132 @@
+* {margin: 0;padding: 0;}a:hover {text-decoration: none;cursor: pointer;}
+/* 头部导航 */
+.nav
+{background: #f2f2f2;padding: 5px 0px;width: 1583px;font-size: 12px;border-bottom:1px solid #E7E7E7 ;}
+.nav-box
+{width: 1024px;margin: 0 auto;}
+.nav a,.nav span
+{color: #999;}
+.nav a:hover
+{color: #c40000;}
+.nav a:nth-child(1)
+{margin-right: 20px;}
+.nav a:nth-child(3)
+{margin: 0 20px;}
+.nav-left
+{float: left;}
+.nav-right
+{float: right;}
+.nav i
+{color: #c40000;font-size: 14px;margin-right: 5px;}
+/* LOGO搜索栏 */
+.search-box 
+{position: relative;width: 1150px;margin: 0 auto;}
+.search-box .left
+{float: left;}
+.search-box .right 
+{position: absolute;margin: auto;left: 0;top: 0;right: 0;bottom: 0;width:400px;height: 65px;float: left;display: table-cell;vertical-align: middle;}
+.right-up input:nth-child(1)
+{border: 2px solid #C40000;height: 36px;width: 275px;outline: 0;padding-left:5px ;}
+.right-up input::-webkit-input-placeholder
+{font-size: 12px;}
+.right-up input:nth-child(2) 
+{position: relative;top: 2px;margin-left: -4px;height: 40px;width: 110px;background: #C40000;font-size:18px;color: white;font-weight: bold;border-color: #c40000;cursor: pointer;outline: 0;}
+.right-down
+{color: #999;}
+.right-down a,.right-down span
+{margin-right:20px;font-size: 13px;color: #999;}
+.right-down a:hover
+{color: #c40000;}
+/* 菜单栏 */
+.menu
+{height: 36px;background: #DD2727;}
+.menu-box
+{width: 1024px;height: 36px;margin: 0 auto;}
+.menu-box .left
+{float: left;width: 190px;height: 36px;background: #C60A0A;padding: 0 10px;line-height: 36px;}
+.menu-box .left i
+{color: white;font-size: 16px;}
+.menu-box .left span
+{color: white;font-size: 16px;font-weight: bold;margin: 0 0 0 12px;cursor: pointer;}
+.menu-box .right
+{float: left;height: 36px;padding: 0 20px;line-height: 36px;}
+.menu-box .right span
+{font-size: 15px;color: white;margin: 0 20px;cursor: pointer;}
+.menu-box .right span:hover
+{font-weight: bold;font-size: 16px;}
+/*产品列表*/
+.product-list
+{height: 510px;background-color: #E8E8E8;}
+.product-list-box
+{width: 1024px;height: 510px;margin: 0 auto;}
+.product-list-box .left
+{width: 210px;height: 510px;background-color:#e2e2e3;font-size: 15px;font-family: "微软雅黑";float: left;}
+.product-list-box .left .list-p
+{padding:5px 0;cursor: pointer;}
+.product-list-box .left .list-p:hover
+{background: white;}
+.list-p i
+{margin: 0 10px;}
+/* 轮播图 */
+.product-list-box .right
+{float: left;}
+.lunbo-container
+{position: relative;overflow: hidden;width: 800px;height: 510px;}
+.lunbo-box 
+{width: 9999px;}
+.lunbo-box img 
+{cursor: pointer;width: 800px;height: 510px;}
+#count 
+{position:absolute;right:0;bottom:5px;}
+#count li 
+{text-align: center;color:#fff;float:left;width:20px;height:20px;cursor:pointer;margin-right:5px;overflow:hidden;background:#F90;opacity:0.7;border-radius:20px;}
+#count .current
+{color:#fff;opacity:1;font-weight:700;background:#f60;}
+/* 产品展示区 */
+.product-show-box 
+{width: 1024px;margin: 0 auto;background: #F5F5F5;}
+.p-title 
+{height: 60px;padding-top: 30px;}
+.p-title .mark 
+{width: 5px;height: 20px;background: #19C8A9;margin-left: 10px;display: inline-block;position: relative;top: 2px;}
+.p-title span 
+{font-size: 16px;margin-left: 30px;font-weight: bold;}
+.p-item 
+{width: 189px;height: 285px;border: 1px solid white;float: left;margin-left: 10px;}
+.p-item:hover 
+{border-color: #C40000 ;opacity: .6;}
+.p-item img 
+{width: 187px; height: 190px;}
+.p-item .p-item-desc 
+{font-size: 12px;color: #666666;display: block;padding: 16px;}
+.p-item .p-item-price 
+{font-size: 16px;color: #FF003A;display: block;padding-left: 16px;margin-top: -10px;}
+.show-end 
+{height: 150px;padding: 40px;text-align: center;background: #F5F5F5;color: gray;}
+/* 底部页脚 */
+.tm-end .end-top 
+{height: 120px;padding:20px;border: 2px #f2f2f2 solid;}
+.tm-end .end-top img 
+{width: 1024px;margin: 0 auto;display: block;cursor: pointer;}
+.tm-end table 
+{margin: 0 auto;width: 1024px;vertical-align: top;}
+.tm-end table td 
+{vertical-align: top;padding-top: 30px;}
+.tm-end table td p 
+{line-height: 16px;}
+.tm-end table td span 
+{font-size: 16px;font-weight: bold;color: #333;}
+.tm-end table a 
+{font-size: 12px;color: #999;}
+.tm-end table a:hover 
+{color: #C40000;}
+.bottom 
+{background: black;border-top: 1px solid #C40000;color: white;padding-bottom: 30px;}
+.bottom div,.bottom p 
+{width: 1024px;margin: 0 auto;}
+.bottom p 
+{font-size: 11px;color: #999;}
+.bottom a 
+{font-size: 12px;color: white;}
+.bottom-state a 
+{margin-right: 10px;}
